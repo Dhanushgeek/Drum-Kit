@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #70af85;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: black;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #e4dee0;
 
 }
 
@@ -15,35 +15,42 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
-/*
-.w {
 
+.w {
+  background-image: url("images/crash.png");
 }
 
 .a {
+  background-image: url("images/kick.png");
 
 }
 
 .s {
+  background-image: url("images/snare.png");
+
 
 }
 
 .d {
+  background-image: url("images/tom1.png");
 
 }
 
 .j {
+  background-image: url("images/tom2.png");
 
 }
 
 .k {
+  background-image: url("images/tom3.png");
 
 }
 
 .l {
+  background-image: url("images/tom4.png");
 
 }
-*/
+
 .set {
   margin: 10% auto;
 }
@@ -77,5 +84,5 @@ footer {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(208, 216, 211);
 }
