@@ -40,9 +40,12 @@
                  audio7.play();
                  break;
 
+             default:
+                 console.log(buttonInnerHTML);
 
 
-         
+
+
          }
 
 
