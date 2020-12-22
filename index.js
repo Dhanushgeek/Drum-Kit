@@ -2,7 +2,22 @@
      document.querySelectorAll(".drum")[i].addEventListener("click", function () {
          var buttonInnerHTML = this.innerHTML;
 
-         switch (buttonInnerHTML) {
+         makeSound(buttonInnerHTML);
+
+        
+
+
+     });
+
+      }
+
+      document.addEventListener("keydown",function(event){
+
+        makeSound(event.key);
+      });
+
+     function makeSound(key){
+          switch (key) {
              case "w":
                  var audio1 = new Audio("sounds/crash.mp3");
                  audio1.play();
@@ -48,10 +63,9 @@
 
          }
 
+     }
 
-     });
 
- }
 
  /*var audio1=new Audio("sounds/crash.mp3");
          audio1.play()*/
